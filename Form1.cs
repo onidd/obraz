@@ -31,6 +31,31 @@ namespace obraz
 
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (pictureBox1.Image == null)
+            {
+                MessageBox.Show("Najpierw wczytaj obraz!", "B³¹d", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            Bitmap bmp = new Bitmap(pictureBox1.Image);
+
+            for (int y = 0; y < bmp.Height; y++)
+            {
+                for (int x = 0; x < bmp.Width; x++)
+                {
+                    Color pixelColor = bmp.GetPixel(x, y);
+
+                    if (!(pixelColor.G > pixelColor.R && pixelColor.G > pixelColor.B))
+                    {
+                        bmp.SetPixel(x, y, Color.Black); 
+                    }
+                }
+            }
+            pictureBox1.Image = bmp;
+            pictureBox1.Refresh(); 
+        }
+
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
 
