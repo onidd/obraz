@@ -93,5 +93,10 @@ namespace obraz
             pictureBox1.Image.RotateFlip(RotateFlipType.RotateNoneFlipX);
             pictureBox1.Refresh();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
