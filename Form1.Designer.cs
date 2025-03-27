@@ -54,7 +54,7 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // button2
+            // button5
             // 
             button5.Font = new Font("Cascadia Code Light", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 238);
             button5.ForeColor = Color.DarkGreen;
@@ -71,7 +71,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(887, 450);
-            Controls.Add(button2);
+            Controls.Add(button5);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
             Name = "Form1";
