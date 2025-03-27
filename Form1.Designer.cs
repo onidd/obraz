@@ -41,9 +41,9 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(146, 12);
+            pictureBox1.Location = new Point(223, 12);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(729, 426);
+            pictureBox1.Size = new Size(652, 426);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
@@ -54,7 +54,7 @@
             button1.ForeColor = SystemColors.ActiveCaptionText;
             button1.Location = new Point(12, 398);
             button1.Name = "button1";
-            button1.Size = new Size(128, 40);
+            button1.Size = new Size(197, 40);
             button1.TabIndex = 1;
             button1.Text = "Load";
             button1.UseVisualStyleBackColor = true;
@@ -103,7 +103,7 @@
             button2.ForeColor = Color.Red;
             button2.Location = new Point(12, 95);
             button2.Name = "button2";
-            button2.Size = new Size(128, 41);
+            button2.Size = new Size(197, 41);
             button2.TabIndex = 5;
             button2.Text = "rotate";
             button2.UseVisualStyleBackColor = true;
@@ -115,7 +115,7 @@
             button3.ForeColor = Color.Blue;
             button3.Location = new Point(12, 142);
             button3.Name = "button3";
-            button3.Size = new Size(128, 41);
+            button3.Size = new Size(197, 41);
             button3.TabIndex = 6;
             button3.Text = "Invert Colors";
             button3.UseVisualStyleBackColor = true;
@@ -127,7 +127,7 @@
             button4.ForeColor = Color.Blue;
             button4.Location = new Point(12, 189);
             button4.Name = "button4";
-            button4.Size = new Size(128, 41);
+            button4.Size = new Size(197, 41);
             button4.TabIndex = 7;
             button4.Text = "Upside down";
             button4.UseVisualStyleBackColor = true;
