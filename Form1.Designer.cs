@@ -36,6 +36,7 @@
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
+            button5 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -132,6 +133,18 @@
             button4.Text = "Upside down";
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
+
+            // button5
+            button5 = new Button();
+            button5.Font = new Font("Cascadia Code Light", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            button5.ForeColor = Color.Green;
+            button5.Location = new Point(12, 236);
+            button5.Name = "button5";
+            button5.Size = new Size(197, 41);
+            button5.TabIndex = 8;
+            button5.Text = "Green Filter";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // Form1
             // 
@@ -145,6 +158,7 @@
             Controls.Add(radioButton2);
             Controls.Add(radioButton1);
             Controls.Add(button1);
+            Controls.Add(button5);
             Controls.Add(pictureBox1);
             Name = "Form1";
             Text = "Form1";
@@ -164,5 +178,6 @@
         private Button button2;
         private Button button3;
         private Button button4;
+        private Button button5;
     }
 }
