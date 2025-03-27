@@ -142,7 +142,7 @@
             button5.Name = "button5";
             button5.Size = new Size(197, 41);
             button5.TabIndex = 8;
-            button5.Text = "Green Filter";
+            button5.Text = "OnlyGreen";
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
