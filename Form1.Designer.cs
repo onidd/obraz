@@ -30,7 +30,7 @@
         {
             pictureBox1 = new PictureBox();
             button1 = new Button();
-            button2 = new Button();
+            button5 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -56,15 +56,15 @@
             // 
             // button2
             // 
-            button2.Font = new Font("Cascadia Code Light", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 238);
-            button2.ForeColor = Color.DarkGreen;
-            button2.Location = new Point(12, 352);
-            button2.Name = "button2";
-            button2.Size = new Size(197, 40);
-            button2.TabIndex = 2;
-            button2.Text = "OnlyGreen";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            button5.Font = new Font("Cascadia Code Light", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            button5.ForeColor = Color.DarkGreen;
+            button5.Location = new Point(12, 352);
+            button5.Name = "button2";
+            button5.Size = new Size(197, 40);
+            button5.TabIndex = 2;
+            button5.Text = "OnlyGreen";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button2_Click;
             // 
             // Form1
             // 
