@@ -95,12 +95,14 @@
             // 
             // button2
             // 
+            button2.Font = new Font("Cascadia Code", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 238);
             button2.Location = new Point(12, 95);
             button2.Name = "button2";
             button2.Size = new Size(128, 41);
             button2.TabIndex = 5;
-            button2.Text = "button2";
+            button2.Text = "rotate";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // Form1
             // 
