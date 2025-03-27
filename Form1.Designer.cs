@@ -64,7 +64,7 @@
             button5.TabIndex = 2;
             button5.Text = "OnlyGreen";
             button5.UseVisualStyleBackColor = true;
-            button5.Click += button2_Click;
+            button5.Click += button5_Click;
             // 
             // Form1
             // 
